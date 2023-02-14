@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         imageView.setOnClickListener {
-            var intent: Intent = Intent(this, videos:: class.java)
+            var intent: Intent = Intent(this, MainActivity3:: class.java)
             startActivity(intent)
         }
     }
